@@ -19,7 +19,7 @@ Afterwards, you can train the network using the following command:
 
 Replace `<file_name>` with whatever file name you would like. The terminal should display the following progress bar to indicate the training progress, as well as the cost for the current training batch:
 <p align = "center">
-<img width="80%" alt="portfolio_view" src="https://github.com/CoachJohnsy/Intelligent-methods-of-information-protection/blob/master/images/training_progress.png">
+<img width="80%" alt="portfolio_view" src="https://github.com/CoachJohnsy/Intelligent-methods-of-information-protection/blob/master/lab-3/images/training_progress.png">
 </p>
 
 After the CNN has finished training, a .pkl file containing the network's parameters is saved to the directory where the script was run.
@@ -34,5 +34,5 @@ To measure the network's accuracy, run the following command in the terminal:
 This command will use the trained parameters to run predictions on all test dataset. After all predictions are made, a value displaying the network's accuracy will appear in the command prompt:
 
 <p align="center">
-<img width="80%" alt="portfolio_view" src="https://github.com/CoachJohnsy/Intelligent-methods-of-information-protection/blob/master/images/test_accuracy.png">
+<img width="80%" alt="portfolio_view" src="https://github.com/CoachJohnsy/Intelligent-methods-of-information-protection/blob/master/lab-3/images/test_accuracy.png">
 </p>
